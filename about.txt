@@ -1,0 +1,128 @@
+<!--Hero-->
+    <div class="pt-20 pb-20 mt-10 gradient">
+      <div class="container pl-12 mx-auto  items-center">
+        <!--Left Col-->
+        <div class=" w-full  justify-center text-center ">
+          <!-- <p class="uppercase tracking-loose w-full">Lorem ipsum</p> -->
+          <h1 class="my-4 text-5xl font-bold ">
+           A &nbsp; B &nbsp; O &nbsp; U &nbsp; T &nbsp; &nbsp; U S
+          </h1>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12 ">
+        <!-- <h1 class="w-full my-2 text-5xl font-bold leading-tight text-right text-gray-800">
+          Title
+        </h1> -->
+        <!--  -->
+        <div class="w-full md:w-2/5 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden ">
+            <img src="\wp-content\themes\wonderpets\assets\images\give.jpg" class="object-cover ">
+            
+              
+          </div>
+        </div>
+
+        <div class="w-full md:w-3/5 p-6 flex flex-col flex-grow flex-shrink text-left ">
+      
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden ">
+           
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline  pt-10">
+              <div class="w-full font-bold text-xl text-gray-800 px-6">
+                O U R &nbsp; S T O R Y <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+
+              </div>
+
+            </a>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden p-6">
+            <div class="flex items-center justify-start">
+              <a class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
+       
+      </div>
+    </section>
+
+<!-- End of promotions -->
+
+<!-- card -->
+
+<section>
+  <h1 class="my-4 text-5xl text-black font-bold text-center">
+    W H O &nbsp; W E &nbsp; A R E
+  </h1>
+  <p class="text-xl text-black text-center px-6 ml-20 mr-20">
+    We are a small yet competitive team that encourages one's self to be successful. We do stuffs like developing Artificial Intelligence, making drones and this, 
+    E-commerce websites which is more popular during this pandemic. 
+    We've work hard to build a strong company and do big things. We are here to help you do the same. 
+  </p>
+
+<div class="flex">
+  <div class="mt-20 ml-5 mb-20 transform transition duration-500 hover:scale-110">
+    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+        <img class="rounded-t-lg" src="\wp-content\themes\wonderpets\assets\images\give.jpg" alt="">
+      </a>
+      <div class="p-5">
+        <a href="#">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white gradient rounded-lg hover:gradient focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          Read more
+          <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-20 ml-20 mb-20 transform transition duration-500 hover:scale-110">
+    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+        <img class="rounded-t-lg" src="\wp-content\themes\wonderpets\assets\images\give.jpg" alt="">
+      </a>
+      <div class="p-5">
+        <a href="#">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white gradient rounded-lg hover:gradient focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          Read more
+          <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-20 ml-20 mb-20 transform transition duration-500 hover:scale-110">
+    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+        <img class="rounded-t-lg" src="\wp-content\themes\wonderpets\assets\images\give.jpg" alt="">
+      </a>
+      <div class="p-5">
+        <a href="#">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white gradient rounded-lg hover:gradient focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          Read more
+          <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</section> 
+<!-- end of card -->
