@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Tailwind Starter Template - Landing Page Template: Tailwind Toolbox
+    </title>
+    <meta name="description" content="Simple landind page" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #000000 0%, #9d9a9a 100%);
+      }
+    </style>
+  </head>
+  <body class="leading-normal tracking-normal text-black " style="font-family: 'Source Sans Pro', sans-serif;">
+    <!--Nav-->
+   
+
+<div class="rounded w-1/2 mx-auto mt-4">
+  <!-- Tabs -->
+  <ul id="tabs" class="inline-flex pt-2 px-1 w-full border-b">
+    <li class="px-4 text-gray-800 font-semibold py-2 rounded-t bg-white border-t border-r border-l -mb-px"><a id="default-tab" href="#first">Tab 1</a></li>
+    <li class="px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#second">Tab 2</a></li>
+    <li class="px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#third">Tab 3</a></li>
+    <li class="px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#fourth">Tab 4</a></li>
+  </ul>
+
+  <!-- Tab Contents -->
+  <div id="tab-contents">
+    <div id="first" class="p-4">
+      First tab
+    </div>
+    <div id="second" class="hidden p-4">
+      Second tab
+    </div>
+    <div id="third" class="hidden p-4">
+      Third tab
+    </div>
+    <div id="fourth" class="hidden p-4">
+      Fourth tab
+    </div>
+  </div>
+</div>
+
+<br><br><br><br>
+
+
+    <div class="mb-2 w-full p-4 max-w-1/2 shadow-md">
+      <label for="comment" class="text-lg text-gray-600">Add a comment</label>
+      <textarea class="w-full h-20 p-2 border rounded focus:outline-none focus:ring-gray-300 focus:ring-1"
+        name="comment" placeholder=""></textarea>
+    </div>
+    <button class="px-3 py-2 text-sm text-blue-100 bg-blue-600 rounded">Comment</button>
+
+
+
+
+  </body>
+</html>
+<script type="text/javascript">
+  
+  let tabsContainer = document.querySelector("#tabs");
+  console.log(tabsContainer);
+
+let tabTogglers = tabsContainer.querySelectorAll("#tabs a");
+
+console.log(tabTogglers);
+
+tabTogglers.forEach(function(toggler) {
+  toggler.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    let tabName = this.getAttribute("href");
+    console.log(tabName);
+
+
+    let tabContents = document.querySelector("#tab-contents");
+        console.log(tabContents);
+
+    for (let i = 0; i < tabContents.children.length; i++) {
+      
+      tabTogglers[i].parentElement.classList.remove("border-t", "border-r", "border-l", "-mb-px", "bg-white");  tabContents.children[i].classList.remove("hidden");
+      if ("#" + tabContents.children[i].id === tabName) {
+        continue;
+      }
+      tabContents.children[i].classList.add("hidden");
+      
+    }
+    e.target.parentElement.classList.add("border-t", "border-r", "border-l", "-mb-px", "bg-white");
+  });
+});
+
+</script>
+
+
